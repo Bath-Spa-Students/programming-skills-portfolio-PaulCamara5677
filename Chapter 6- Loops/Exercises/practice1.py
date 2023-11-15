@@ -1,10 +1,11 @@
-#Count +5
-for x in range (0, 20, 5):
-    print(x, end=",")
+#Writing a Python program that use a while loop in order to print even numbers starting from 10 and finishin in 100.
 
-#Activity : Calculate the square root of each number in a range:
+#The variable value 2 will be the key for the code to run successfully.
 
-N= int (input("Enter max number for range :"))
-for x in range (0, 20, 5):
-    print(x,end=",")
+num = 10
 
+#the code below will run the loop in order.
+
+while num <= 100:
+    print(num)
+    num+=10
