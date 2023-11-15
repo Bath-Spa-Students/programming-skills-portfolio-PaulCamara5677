@@ -4,6 +4,6 @@
 ####that message.
 
 favorite_number = "76"
-input ("Do you wish to know my favorite number? Enter 'yes' to continue")
+input ("Do you wish to know my favorite number? Enter 'yes' to continue:")
 print ("Paul's favorite number is...", favorite_number)
  
