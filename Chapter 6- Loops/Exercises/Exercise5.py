@@ -4,10 +4,13 @@
 ##near the beginning of your program to print a message saying the deli has run out of pastrami, and then use a while loop to remove all
 ###occurrences of 'pastrami' from sandwich_orders. Make sure no pastrami sandwiches end up in finished_sandwiches.
 
+#list of sandwiches in the Deli
 sandwich_orders = ['Subway Special', 'Chicken & Cheese', 'Meatball Sub', 'Sausage club']
+#Apology note for the lack of availability for 'Pastrami sandwich'.
 print("Apologies, but we do not have any ingredients to make a Pastrami sandwich at the moment.")
 while "Subway Special" in sandwich_orders:
     sandwich_orders.remove('Subway Special')
+#will inform the customer which sandwiches are prepared 
 finished_sandwiches = []
 while sandwich_orders:
     current_order = sandwich_orders.pop()
